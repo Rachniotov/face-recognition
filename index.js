@@ -51,7 +51,7 @@ let run = async (url) => {
 	}
 }
 
-setInterval(() => run('http://192.168.29.87:8080/photo.jpg'), 3000);
+setInterval(() => run('http://192.168.29.87:8080/photo.jpg'), 1000);
 
 let createDescriptors = async (filename) => {
 	let arr = [];
