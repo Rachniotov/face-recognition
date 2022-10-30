@@ -7,12 +7,12 @@
 
 	1. create a folder, `picsREF` and populate it with as many images as you want of yourself in appropriate lighting and eyes looking at the camera.
 	2. rename all the images to follow this name convention:
-			```
+			
 			img0.jpg
 			img1.jpg
 			img2.jpg
 			...
-			```
+			
 	3. create a folder called `desscriptors`.
 	4. just run the `createDescriptors` function with model name as an argument.
 
