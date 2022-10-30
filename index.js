@@ -54,12 +54,6 @@ let run = async (url) => {
 setInterval(() => run('http://192.168.29.87:8080/photo.jpg'), 3000);
 
 let createDescriptors = async (filename) => {
-	
-	await face.nets.ssdMobilenetv1.loadFromDisk("./weights");
-	await face.nets.faceRecognitionNet.loadFromDisk("./weights");
-	await face.nets.faceLandmark68Net.loadFromDisk("./weights");
-	const options = new face.SsdMobilenetv1Options({minConfidence: 0.1, maxResults: 1});
-
 	let arr = [];
 
 	for (let i = 0; i < 17; i++) {
